@@ -1,0 +1,9 @@
+print "What's your first name? "
+first_name = gets.chomp.capitalize
+print "What's your last name? "
+last_name = gets.chomp.capitalize
+print "What city do you live in? "
+city = gets.chomp.capitalize
+print "What state do you live in ? (Acronym please!)"
+state = gets.chomp.upcase!
+puts "Greetings #{first_name} #{last_name} of #{city},#{state}!"
